@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import WelcomeScreen from "../../components/Screens/GameScreen/WelcomeScreen";
-import Gamescreen from "../../components/Screens/GameScreen/Gamescreen"
+import Gamescreen from "../../components/Screens/GameScreen/Gamescreen";
 import * as GameActions from "../../store/actions/gameActions";
 
 import { MainContainer, Content } from "./styles";
@@ -29,7 +29,7 @@ class MemoryGameContainer extends React.Component {
   }
   render() {
     const displayedSreen = this.props.isRunning ? (
-      <GameScreen />
+      <Gamescreen />
     ) : (
       <WelcomeScreen
         newGameClick={this.handleNewGameClick}

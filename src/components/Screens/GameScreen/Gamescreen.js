@@ -6,7 +6,7 @@ import Card from "./Card";
 
 const SPLITAFTER = 4;
 
-class GameScreen extends React.Component {
+class Gamescreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -128,4 +128,4 @@ const mapDispatchToProps = dispatch => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(GameScreen);
+)(Gamescreen);
