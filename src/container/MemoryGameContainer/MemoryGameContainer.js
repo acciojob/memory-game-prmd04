@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
-import WelcomeScreen from "../../components/Screens/Gamescreen/WelcomeScreen" 
-import GameScreen from "../../components/Screens/Gamescreen/Gamescreen";
-import * as GameActions from "../../store/actions/gameActions";
+import WelcomeScreen from "../../components/Screens/GameScreen/WelcomeScreen";
+import Gamescreen from "../../components/Screens/GameScreen/Gamescreen"
+import * as GameActions from "../../store/action/gameActions"
 import { MainContainer, Content } from "./styles";
 
 const DEFAULT_CARD_NUMBER = 8;
